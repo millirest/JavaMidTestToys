@@ -57,29 +57,11 @@ public class ToyStore {
                 for (int i = 0; i < attempt; i++){
                     toy prizeToy = queue.poll();
                     writer.println(prizeToy.getId()+" "+prizeToy.getName()+" "+ prizeToy.getWeight());
+                    System.out.println(prizeToy.getId()+" "+prizeToy.getName()+" "+ prizeToy.getWeight());
                 }
             } catch (Exception e) {
                 e.printStackTrace();
             }
         }
-
-    public void getPrizeToy() throws IOException {
-        Queue<toy> queue = new PriorityQueue<>(3, Comparator.comparingDouble(toy::getWeight));
-        for (int i = 0; i < 1; i++){
-            queue.offer(prizeToys.get(i));
-        }
-        System.out.println(queue);
-        try (PrintWriter writer = new PrintWriter(new File("output.txt"))) {
-            writer.println("ID Name Weight");
-            for (int i = 0; i < 10; i++){
-                toy prizeToy = queue.poll();
-                System.out.println(prizeToy+" 2 ");
-                writer.println(prizeToy.getId()+" "+prizeToy.getName()+" "+ prizeToy.getWeight());
-                queue.offer(prizeToy);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 
 }

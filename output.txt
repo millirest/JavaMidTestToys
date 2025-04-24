@@ -1,9 +1,9 @@
 ID Name Weight
 1 Toy 1 30.0
 1 Toy 1 30.0
-3 Toy 3 60.0
-3 Toy 3 60.0
-3 Toy 3 60.0
+1 Toy 1 30.0
+1 Toy 1 30.0
+1 Toy 1 30.0
 3 Toy 3 60.0
 3 Toy 3 60.0
 3 Toy 3 60.0
