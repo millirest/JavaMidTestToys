@@ -21,7 +21,6 @@ public class toy {
         return weight;
     }
 
-
     // Sets
     public void setId(int id) {
         this.id = id;
