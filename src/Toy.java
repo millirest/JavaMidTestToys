@@ -1,10 +1,10 @@
-public class Toy {
+public class toy {
     private int id; // 
     private String name; // Имя
     // private int quantity; // Колличество
     private double weight; // Вес
 
-    public Toy(int id, String name,  double weight) { // int quantity,
+    public toy(int id, String name, double weight) { // int quantity,
         this.id = id;
         this.name = name;
         // this.quantity = quantity;
@@ -30,19 +30,19 @@ public class Toy {
 
 
     //Sets
-    public void setId(int id) {
-        this.id = id;
-    }
-    public void setname(String name) {
-        this.name = name;
-    }
-
-    // public void setQuantity(int quantity) {
-    //     this.quantity = quantity;
+    // public void setId(int id) {
+    //     this.id = id;
+    // }
+    // public void setname(String name) {
+    //     this.name = name;
     // }
 
-    public void setWeight(double weight) {
-        this.weight = weight;
-    }
+    // // public void setQuantity(int quantity) {
+    // //     this.quantity = quantity;
+    // // }
+
+    // public void setWeight(double weight) {
+    //     this.weight = weight;
+    // }
 
 }
