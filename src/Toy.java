@@ -29,20 +29,20 @@ public class toy {
     }
 
 
-    //Sets
-    // public void setId(int id) {
-    //     this.id = id;
-    // }
-    // public void setname(String name) {
-    //     this.name = name;
+    // Sets
+    public void setId(int id) {
+        this.id = id;
+    }
+    public void setname(String name) {
+        this.name = name;
+    }
+
+    // public void setQuantity(int quantity) {
+    //     this.quantity = quantity;
     // }
 
-    // // public void setQuantity(int quantity) {
-    // //     this.quantity = quantity;
-    // // }
-
-    // public void setWeight(double weight) {
-    //     this.weight = weight;
-    // }
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
 
 }
